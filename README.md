@@ -1,4 +1,4 @@
-# Webuno
+# Hacker news
 
 This project is a website that displays random news from the hacker news API and adds a cute cat image on top 😍.
 
