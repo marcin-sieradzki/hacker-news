@@ -26,7 +26,7 @@ export default defineComponent({
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 1em;
+	margin: 1em 0;
 	& > div {
 		& > p {
 			margin-top: 1em;

@@ -17,7 +17,7 @@ export default defineComponent({
 </script>
 
 <template>
-	<div class="top-story-list-error-handler">
+	<div class="top-story-list-error-handler" v-if="error">
 		<p>Could not load stories. {{ error.message || "" }}</p>
 		<button @click="refetchStories">Try again</button>
 	</div>

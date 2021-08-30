@@ -4,9 +4,9 @@ This project is a website that displays random news from the hacker news API and
 
 # Demo
 
-## [Live demo]()
+## [Live url]()
 
-![Picture of an ongoing game](./public/ongoing.png "Picture of an ongoing game")
+![Picture of the page](./public/page.png "Picture of the page")
 
 # Local development
 

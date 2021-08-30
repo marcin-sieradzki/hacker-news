@@ -30,7 +30,10 @@ body,
 html {
 	font-family: sans-serif;
 }
-
+#app {
+	height: 100%;
+	width: 100%;
+}
 .app {
 	height: 100%;
 	width: 100%;

@@ -1,17 +1,17 @@
 <script lang="ts">
-import { Story } from "src/types";
+import { StoryDto } from "src/types";
 import { defineComponent, PropType } from "vue";
 
 export default defineComponent({
 	name: "TopStoryList",
 	props: {
-		story: Object as PropType<Story>,
+		story: Object as PropType<StoryDto>,
 	},
 });
 </script>
 
 <template>
-	<article class="story">
+	<article class="story" v-if="story">
 		<a :href="story.url">
 			<img class="story__image" alt="cat" src="src/assets/cat.jpg"
 		/></a>
